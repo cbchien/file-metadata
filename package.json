@@ -1,0 +1,33 @@
+{
+  "name": "file-metadat-microserver",
+  "version": "1.0.0",
+  "description": "submit a FormData object and receive the file size in bytes within the JSON response",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbchien/file-metadata"
+  },
+  "author": "cbchien",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "cors": "^2.8.0",
+    "body-parser": "^1.17.0",
+    "multer": "^1.3.0"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
